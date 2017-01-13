@@ -16,7 +16,7 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
     })
     .state("schedule", {
       url: "/schedule",
-      templateUrl: "chedule.html"
+      templateUrl: "schedule.html"
     })
     .state("speakers", {
       url: "/speakers",
