@@ -8,22 +8,22 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state("home", {
       url:"/home",
-      templateUrl: "../home.html"
+      templateUrl: "home.html"
     })
     .state("register", {
       url: "/register",
-      templateUrl: "../register.html"
+      templateUrl: "register.html"
     })
     .state("schedule", {
       url: "/schedule",
-      templateUrl: "../schedule.html"
+      templateUrl: "chedule.html"
     })
     .state("speakers", {
       url: "/speakers",
-      templateUrl: "../speakers.html"
+      templateUrl: "speakers.html"
     })
     .state("venue", {
       url: "/venue",
-      templateUrl: "../venue.html"
+      templateUrl: "venue.html"
     });
 });
